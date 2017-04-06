@@ -6,10 +6,10 @@ Smol debounce package.
 
 ## Usage
 ```js
-var Microbounce = reuqire('nanobounce')
+var Nanobounce = reuqire('nanobounce')
 var html = require('bel')
 
-var nanobounce = Microbounce()
+var nanobounce = Nanobounce()
 html`
   <input onkeydown=${onkeydown}>click me</button>
 `
@@ -26,7 +26,7 @@ Because most debounce functions don't work well when doing DOM diffing. This
 package is specifically made to work well with DOM diffing.
 
 ## API
-### `nanobounce = Microbounce([timeout])`
+### `nanobounce = Nanobounce([timeout])`
 Create a new instance. Timeout defaults to `256ms`.
 
 ### `nanobounce(callback)`

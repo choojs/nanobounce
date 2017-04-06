@@ -1,6 +1,6 @@
-module.exports = Microbounce
+module.exports = Nanobounce
 
-function Microbounce (timeout) {
+function Nanobounce (timeout) {
   timeout = timeout || 256
 
   var callback = null
