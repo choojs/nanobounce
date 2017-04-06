@@ -1,7 +1,7 @@
 {
-  "name": "microbounce",
+  "name": "nanobounce",
   "description": "Smol debounce package",
-  "repository": "yoshuawuyts/microbounce",
+  "repository": "yoshuawuyts/nanobounce",
   "version": "1.0.0",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
