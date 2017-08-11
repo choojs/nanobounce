@@ -6,7 +6,7 @@ Smol debounce package.
 
 ## Usage
 ```js
-var Nanobounce = reuqire('nanobounce')
+var Nanobounce = require('nanobounce')
 var html = require('bel')
 
 var nanobounce = Nanobounce()
