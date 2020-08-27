@@ -13,7 +13,7 @@ function Nanobounce (timeout) {
 
     if (!inFlight) {
       inFlight = true
-      window.setTimeout(next, timeout)
+      setTimeout(next, timeout)
     }
 
     function next () {
@@ -24,7 +24,7 @@ function Nanobounce (timeout) {
         callback()
         callback = null
       } else {
-        window.setTimeout(next, diff)
+        setTimeout(next, diff)
       }
     }
   }
