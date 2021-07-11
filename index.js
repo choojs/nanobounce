@@ -19,10 +19,11 @@ function Nanobounce (timeout) {
     function next () {
       var diff = Date.now() - last
       if (diff > timeout) {
-        last = null
+        var callbackTemp = callback
         inFlight = false
-        callback()
+        last = null
         callback = null
+        callbackTemp()
       } else {
         setTimeout(next, diff)
       }
